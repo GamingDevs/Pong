@@ -120,7 +120,7 @@
   }
 
   function gameLoop(){
-    requestAnimationFrame(gameLoop)
+    requestAnimFrame(gameLoop)
     let _newFrame = +new Date()
     update((_newFrame - _oldFrame)/1000)
     _oldFrame = _newFrame
